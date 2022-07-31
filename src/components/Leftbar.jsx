@@ -1,6 +1,6 @@
 import React from "react"; //rafce
 import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
-import { Home } from "@mui/icons-material";
+import { Home, Pages } from "@mui/icons-material";
 
 const Leftbar = () => {
   return (
@@ -22,7 +22,7 @@ const Leftbar = () => {
           <ListItem disablePadding>
             <ListItemButton component="a" href="#pages ">
               <ListItemIcon>
-                <Home/>
+                <Pages/>
               </ListItemIcon>
               <ListItemText primary="Pages" />
             </ListItemButton>
