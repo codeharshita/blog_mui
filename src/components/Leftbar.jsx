@@ -19,6 +19,14 @@ const Leftbar = () => {
               <ListItemText primary="Homepage" />
             </ListItemButton>
           </ListItem>
+          <ListItem disablePadding>
+            <ListItemButton component="a" href="#pages ">
+              <ListItemIcon>
+                <Home/>
+              </ListItemIcon>
+              <ListItemText primary="Pages" />
+            </ListItemButton>
+          </ListItem>
           </List>
     </Box>
   );
