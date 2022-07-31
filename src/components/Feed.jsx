@@ -6,6 +6,7 @@ const Feed = () => {
   return (
     <Box flex="2" p={2}>
       <Post/>
+      <Post/>
     </Box>
   );
 };
