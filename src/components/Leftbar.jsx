@@ -11,7 +11,6 @@ import {
 import {
   Groups,
   Home,
-  Label,
   ModeNight,
   Pages,
   People,
@@ -23,6 +22,7 @@ import {
 const Leftbar = () => {
   return (
     <Box flex="1" p={2} sx={{ display: { xs: "none", sm: "block" } }}>
+      <Box position="fixed">
       <List>
         <ListItem disablePadding>
           <ListItemButton component="a" href="#home">
@@ -89,6 +89,7 @@ const Leftbar = () => {
           </ListItemButton>
         </ListItem>
       </List>
+      </Box>
     </Box>
   );
 };

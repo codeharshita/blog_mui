@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, CardHeader, Avatar, IconButton, CardMedia, CardContent, Typography, CardActions } from '@mui/material';
 import { Card } from 'react-bootstrap';
+import { Favorite, MoreVert, Share } from '@mui/icons-material';
 
 const Post = () => {
   return (
@@ -14,7 +15,7 @@ const Post = () => {
         }
         action={
           <IconButton aria-label="settings">
-            <MoreVertIcon />
+            <MoreVert />
           </IconButton>
         }
         title="Shrimp and Chorizo Paella"
@@ -35,10 +36,10 @@ const Post = () => {
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
+          <Favorite />
         </IconButton>
         <IconButton aria-label="share">
-          <ShareIcon />
+          <Share />
         </IconButton>
         </CardActions>
       </Card>
