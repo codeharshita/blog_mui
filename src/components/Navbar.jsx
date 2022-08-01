@@ -53,7 +53,7 @@ const Navbar = () => {
     <AppBar position="sticky">
       <StyledToolbar variant="h6">
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          LAMA DEV{" "}
+          COISTA{" "}
         </Typography>
         <Pets sx={{ display: { xs: "block", sm: "none" } }} />
         <Search>
@@ -68,7 +68,7 @@ const Navbar = () => {
           </Badge>
           <Avatar
             sx={{ width: 30, height: 30 }}
-            src="/static/images/avatar/1.jpg"
+            src="https://material-ui.com/static/images/avatar/3.jpg"
             onClick={(e) => setOpen(true)}
           />
         </Icon>
